@@ -5,8 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-do App</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <div class="nav">
+
+    </div>
+    <main>
+        <!-- <form action="#" class="form"></form> -->
+        <div class="form">
+            <div class="input">
+                <label for="todo-field">
+                    <small>Task</small>
+                </label>
+                <input type="text" name="task" id="todo-field">
+            </div>
+            <div class="submit">
+                <!-- <button type="submit">Add</button> -->
+                <button id="submit-btn" class="btn btn-blue">Add me</button>
+            </div>
+        </div>
+
+        <div class="todo-list">
+            <div class="todo">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="status">
+                    <small class="tag tag-warning">Doing</small>
+                    <button class="btn btn-red">Delete</button>
+                </div>
+            </div>
+
+            <div class="todo">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="status">
+                    <small class="tag tag-danger">Done</small>
+                    <button class="btn btn-red">Delete</button>
+                </div>
+            </div>
+
+            <div class="todo">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="status">
+                    <small class="tag tag-success">To do</small>
+                    <button class="btn btn-red">Delete</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+
+    </footer>
 </body>
 </html>
