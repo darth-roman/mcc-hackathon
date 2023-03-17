@@ -107,6 +107,15 @@ body{
     align-items: flex-start;
 }
 
+.todo-disabled{
+    filter: grayscale(1);
+
+}
+
+.todo-disabled p{
+    text-decoration: line-through;
+}
+
 .tag{
     padding: 0 5px;
     border-radius: 10px;
