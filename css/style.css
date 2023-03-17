@@ -42,6 +42,13 @@ body{
     padding: 10px;
 }
 
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
 .form{
     display: flex;
     align-items: flex-end;
@@ -86,6 +93,7 @@ body{
 .todo-list{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding: 10px;
     margin: var(--mar-10);
     background-color: var(--dark-1);
@@ -143,4 +151,57 @@ body{
 .btn-red{
     background-color: var(--red-1);
     color: var(--light);
+}
+
+
+@media screen and (min-width: 500px ) and (max-width: 750px ){
+    main{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .todo-list{
+        width: 80vw;
+    }
+
+
+}
+
+@media screen and (min-width: 750px ) and (max-width: 1000px ){
+    main{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .todo-list{
+        width: 60vw;
+    }
+
+
+}
+
+@media screen and (min-width: 1000px ) and (max-width: 1500px ){
+    main{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .todo-list{
+        width: 40vw;
+    }
+
+
+}
+
+@media screen and (min-width: 1500px ) {
+    main{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .todo-list{
+        width: 20vw;
+    }
+
+
 }
